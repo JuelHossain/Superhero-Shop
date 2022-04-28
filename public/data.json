@@ -1,0 +1,190 @@
+[
+  {
+    "id": 1,
+    "name": "Captain America",
+    "superPowers": [
+      "Strength",
+      "agility",
+      "stamina",
+      "healing ability",
+      "expert tactician",
+      "martial artist",
+      "indestructible shield"
+    ],
+    "weapons": ["Vibranium shield"],
+    "price": 200,
+    "picture": "./photos/Captain America.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Iron Man",
+    "superPowers": [
+      "Genius-level intellect",
+      "multiple powered armor suits",
+      "ability to fly"
+    ],
+    "weapons": ["Repulsor rays", "uni-beam projector", "laser"],
+    "price": 500,
+    "picture": "./photos/Iron Man.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Hulk",
+    "superPowers": [
+      "Strength",
+      "speed",
+      "stamina",
+      "durability",
+      "regeneration",
+      "nigh",
+      "invulnerability",
+      "breathing underwater"
+    ],
+    "weapons": ["Strength"],
+    "price": 700,
+    "picture": "./photos/Hulk.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Spider Man",
+    "superPowers": [
+      "Strength",
+      "jumping",
+      "leaping",
+      "speed",
+      "danger sense",
+      "precognition",
+      "custom web-shooters"
+    ],
+    "weapons": ["Web-shooters"],
+    "price": 400,
+    "picture": "./photos/Spider Man.jpg"
+  },
+  {
+    "id": 5,
+    "name": "ghost Rider",
+    "superPowers": [
+      "A Cloak of Levitation that allows him to fly",
+      "skilled athletic and martial artist",
+      "conjurer of magical energy shield",
+      "wind & flame projection",
+      "telekinesis",
+      "hypnotism",
+      "jumps through dimensions"
+    ],
+    "weapons": ["Hellfire Chain"],
+    "price": 1000,
+    "picture": "./photos/Ghost Rider.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Doctor Strange",
+    "superPowers": [
+      "Supernatural motorcycle",
+      "immunity to damage",
+      "superhuman strength",
+      "projecting hellfire",
+      "penance stare",
+      "mentally-controlled chains"
+    ],
+    "weapons": [
+      "Cloak of Levitation",
+      "Eye of Agamotto",
+      "Orb of Agamotto ",
+      "infinity stone and more"
+    ],
+    "price": 1500,
+    "picture": "./photos/Dr. Strange.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Venom",
+    "superPowers": [
+      "Mimicked powers of Spider-Man",
+      "superhuman condition",
+      "limited shapeshifting",
+      "telepathic skills",
+      "undetectable by spider-sense."
+    ],
+    "weapons": ["Webshooters"],
+    "price": 1000,
+    "picture": "./photos/Venom.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ant-Man",
+    "superPowers": [
+      "Genius-level intellect",
+      "size-changing via Pym Particles",
+      "telepathic communication with insects",
+      "dimension-hopping"
+    ],
+    "weapons": ["Stinger firearm"],
+    "price": 600,
+    "picture": "./photos/Ant-Man.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Thor",
+    "superPowers": [
+      "Strength",
+      "speed",
+      "stamina",
+      "durability",
+      "weather manipulation",
+      "flight (via Mjolnir)",
+      "dense skin and bones with a resistance to injury"
+    ],
+    "weapons": ["Warhammer Mjolnir"],
+    "price": 1500,
+    "picture": "./photos/Thor.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Black Panther",
+    "superPowers": [
+      "Enhanced senses",
+      "superhuman condition",
+      "speed",
+      "martial artist",
+      "magical resistance",
+      "Vibranium-assisted outfit"
+    ],
+    "weapons": ["Energy dagger", "anti-metal claws"],
+    "price": 900,
+    "picture": "./photos/Black Panther.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Groot",
+    "superPowers": [
+      "Superhuman strength to lift and break",
+      "a durability of dense wood",
+      "ability to extend body",
+      "generate flowers",
+      "twigs and leaves",
+      "light generation",
+      "regenerative healing factor",
+      "talented combatant"
+    ],
+    "weapons": ["No Extra Weapons"],
+    "price": 500,
+    "picture": "./photos/Groot.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Ultron",
+    "superPowers": [
+      "Strength",
+      "speed",
+      "stamina",
+      "genius-level artificial intelligence",
+      "makes calculations with superhuman speed and accuracy",
+      "nigh indestructibility via adamantium bodies",
+      "flight"
+    ],
+    "weapons": ["Repulsor", "plasma weapons"],
+    "price": 2000,
+    "picture": "./photos/Ultron.jpg"
+  }
+]

@@ -17,3 +17,13 @@
     font-size: 20px;
     color: aliceblue;
 }
+@media screen and (min-width:768px) and (max-width:1023px){
+    .header nav h1{
+        font-size:  35px;
+        width: 50%;
+    }
+    .header nav p{
+        font-size:16px;
+    }
+
+}
