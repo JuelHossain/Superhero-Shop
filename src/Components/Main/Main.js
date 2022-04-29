@@ -75,8 +75,7 @@ const Main = () => {
               key={item.id}
               cartItem={item}
               increase={() => addToCart(item)}
-              decrease={()=> removeFromCart(item)}
-            
+              decrease={() => removeFromCart(item)}
             ></Cart>
           ))}
         </div>
@@ -92,14 +91,13 @@ const Main = () => {
           <button className="cart-btn">Checkout</button>
         </div>
         <div className="randomly-choosed">
-          <h1> We choosed this For You</h1>
+          <h1 className={cls}> We choosed this For You</h1>
           <Error error={error}></Error>
           <Cart
             cartItem={choosed}
             cls={cls}
-            increase={()=>addToCart(choosed)}
-            decrease={()=>removeFromCart(choosed)}
-          
+            increase={() => addToCart(choosed)}
+            decrease={() => removeFromCart(choosed)}
           ></Cart>
         </div>
       </div>
