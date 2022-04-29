@@ -3,33 +3,31 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Cart.css'
 
-const Cart = ({ cartItem }) => {
-  const { picture, name, price,qty } = cartItem;
+const Cart = ({ cartItem,cls,increase,decrease }) => {
+  const { picture, name, price, qty } = cartItem;
   return (
-    <div>
-      <div className="cartItem">
+    <div className="cartItem" id={cls}>
         <div className="info">
           <img src={picture} alt={name} />
           <h3>{name}</h3>
         </div>
-
         <div className="price">
           <div className="quantity">
             <FontAwesomeIcon
               className="minus-icon"
-              icon={faMinus}
+            icon={faMinus}
+            onClick={decrease}
             ></FontAwesomeIcon>
             <p>{qty}</p>
             <FontAwesomeIcon
               className="plus-icon"
-              icon={faPlus}
+            icon={faPlus}
+            onClick={increase}
             ></FontAwesomeIcon>
           </div>
           <h3>${qty * price}</h3>
         </div>
       </div>
-      <div className="random-choose"></div>
-    </div>
   );
 };
 

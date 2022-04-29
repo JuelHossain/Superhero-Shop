@@ -19,6 +19,37 @@
 .cart-container h1{
     font-size: 24px;
 }
+.cart-container .cartItems{
+    margin:10px 0;
+}
+.cart-container .cart-btn-container{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+.cart-container .cart-btn-container .cart-btn{
+padding: 10px;
+font-size: 13px;
+font-weight: 600;
+background-color: antiquewhite;
+background-color:rgb(1, 17, 31);
+color:antiquewhite;
+border:none;
+}
+.cart-container .cart-btn-container .cart-btn:hover{
+padding: 7px;
+font-size: 15px;
+background-color: antiquewhite;
+color:brown;
+}
+#display-none{
+    display: none;
+}
+#display-none .plus-btn .minus-btn{
+    display: none;
+}
+
+
 
 @media screen and (min-width:768px) and (max-width:1023px) {
     .main-container{
