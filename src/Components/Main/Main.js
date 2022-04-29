@@ -91,7 +91,7 @@ const Main = () => {
           <button className="cart-btn">Checkout</button>
         </div>
         <div className="randomly-choosed">
-          <h1 className={cls}> We choosed this For You</h1>
+          <h1 className={cls}> We choose this For You</h1>
           <Error error={error}></Error>
           <Cart
             cartItem={choosed}
