@@ -6,7 +6,8 @@ import './Cart.css'
 const Cart = ({ cartItem,cls,increase,decrease }) => {
   const { picture, name, price, qty } = cartItem;
   return (
-    <div className="cartItem" id={cls}>
+    <div className={cls}>
+      <div className="cartItem">
         <div className="info">
           <img src={picture} alt={name} />
           <h3>{name}</h3>
@@ -15,19 +16,20 @@ const Cart = ({ cartItem,cls,increase,decrease }) => {
           <div className="quantity">
             <FontAwesomeIcon
               className="minus-icon"
-            icon={faMinus}
-            onClick={decrease}
+              icon={faMinus}
+              onClick={decrease}
             ></FontAwesomeIcon>
             <p>{qty}</p>
             <FontAwesomeIcon
               className="plus-icon"
-            icon={faPlus}
-            onClick={increase}
+              icon={faPlus}
+              onClick={increase}
             ></FontAwesomeIcon>
           </div>
           <h3>${qty * price}</h3>
         </div>
       </div>
+    </div>
   );
 };
 

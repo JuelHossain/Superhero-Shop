@@ -10,7 +10,7 @@ const Main = () => {
   const [cartItem, setCartItem] = useState([]);
   const [choosed, setchoosed] = useState([]);
   const [error, setError] = useState("");
-  const [idName, setId] = useState('display-none');
+  const [cls, setCls] = useState('display-none');
 
   useEffect(() => {
     fetch("data.json")
@@ -34,7 +34,7 @@ const Main = () => {
     const exists = cartItem.find((x) => x.id === hero.id);
     if (exists.qty===1) {
       setCartItem(cartItem.filter(x => x.id !== hero.id));
-      setId("display-none");
+      setCls("display-none");
     } else {
       setCartItem(
         cartItem.map((x) =>
@@ -52,7 +52,7 @@ const Main = () => {
     } else {
       setchoosed(cartItem[randomIndex]);
       setError("");
-      setId('')
+      setCls('')
     }
   };
   const randomIndex = randomNumber(0, cartItem.length - 1);
@@ -96,7 +96,7 @@ const Main = () => {
           <Error error={error}></Error>
           <Cart
             cartItem={choosed}
-            cls={idName}
+            cls={cls}
             increase={()=>addToCart(choosed)}
             decrease={()=>removeFromCart(choosed)}
           

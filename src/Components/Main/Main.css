@@ -15,13 +15,17 @@
     padding: 0 15px;
     position: sticky;
     top:0;
+    height: 30%;
 }
 .cart-container h1{
     font-size: 24px;
 }
-.cart-container .cartItems{
-    margin:10px 0;
-}
+ .cart-container .cartItems{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin:10px ;
+    }
 .cart-container .cart-btn-container{
     display: flex;
     flex-direction: column;
@@ -42,10 +46,7 @@ font-size: 15px;
 background-color: antiquewhite;
 color:brown;
 }
-#display-none{
-    display: none;
-}
-#display-none .plus-btn .minus-btn{
+.display-none{
     display: none;
 }
 
@@ -64,10 +65,21 @@ color:brown;
     .cart-container h1{
         font-size: 17px;
     }
-    .cart-container .cartItems{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
     
+}
+@media screen and (max-width:767px) {
+.main-container{
+    grid-template-columns: 3fr 1fr;
+    
+}
+.hero-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.cart-container h1{
+    font-size: 12px;;
+}
+.cart-container .cart-btn-container .cart-btn{
+    font-size: 10px;
+}
+
 }
