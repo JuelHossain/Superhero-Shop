@@ -1,24 +1,60 @@
 .hero-card{
     padding: 10px;
-    width: 400px;
-    height: 800px;
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid grey; */
+    position: relative;
+    background-color: rgba(165, 42, 42, 0.11);
 }
 .hero-card img{
     width: 100%;
-    height:400px;
+    height:300px;
     object-fit: cover;
 
 }
-.hero-card h1{
+.hero-card .name{
     font-size: 30px;
+    margin:10px 0;
 }
-.hero-card h2{
+.hero-card .price{
+    font-size: 25px;
+    font-weight: 500;
+    margin:0;
+}
+.hero-card .super-powers span{
     font-size: 20px;
+    font-weight: 600;
 }
-button{
+.hero-card .super-powers{
+    font-size: 15px;
+    margin:10px 0
+}
+.hero-card .weapons span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero-card .cart-button{
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    border-top: 0.5px solid grey;
+    background-color:brown;
+    color:antiquewhite;
+    transition: 200ms;
+}
+.hero-card .cart-button:hover{
+    background-color: rgb(1, 17, 31);
+}
+.hero-card .cart-button .cart-icon{
+    font-size: 20px;
+}
 
+@media  screen and (min-width:768px) and (max-width:1023px) {
+    
 }

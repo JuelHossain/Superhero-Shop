@@ -5,8 +5,8 @@ const Header = () => {
     return (
         <div className='header'>
             <nav>
-                <h1>Be A Hero</h1>
-                <p>So You want to be a hero. Choose a Hero from the Product list, Purchase it and get the super power mention in the product description</p>
+                <h1>SuperHero Shop</h1>
+                <p>Purchase A SuperHero From Below And Get The SuperPower Of It.<br /> "BE THE HERO YOU AlWAYS WANTED TO BE"</p>
             </nav>
         </div>
     );

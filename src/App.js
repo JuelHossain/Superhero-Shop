@@ -7,7 +7,7 @@ import Main from './Components/Main/Main';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Header></Header>
       <Main></Main>
     </div>

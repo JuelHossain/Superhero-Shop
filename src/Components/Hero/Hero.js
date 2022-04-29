@@ -8,13 +8,13 @@ const Hero = ({hero}) => {
     return (
         <div className='hero-card'>
             <img src={picture} alt={name} />
-            <h1>{name}</h1>
-            <h3>SuperPowers: {superPowers.join(', ')}</h3>
-            <h3>Weapons: {weapons.join()}</h3>
-            <h2>Price: ${price}</h2>
-            <button>
-                <h3>Add to cart</h3>
-                <FontAwesomeIcon icon={faCartArrowDown}></FontAwesomeIcon>
+            <h1 className='name'>{name}</h1>
+            <p className='price'>Price: ${price}</p>
+            <p className='super-powers'><span>SuperPowers: </span>{superPowers.join(', ')}</p>
+            
+            <button className='cart-button'>
+                <h2>Add to cart</h2>
+                <FontAwesomeIcon className='cart-icon' icon={faCartArrowDown}></FontAwesomeIcon>
             </button>
         </div>
     );

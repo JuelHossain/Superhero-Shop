@@ -1,0 +1,9 @@
+.cart h1{
+    font-size: 24px;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .cart h1{
+        font-size: 18px;
+    }
+}

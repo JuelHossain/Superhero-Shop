@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Hero from '../Hero/Hero';
 import './Main.css'
 
@@ -19,7 +20,7 @@ const Main = () => {
                 }
             </div>
             <div className="cart-container">
-                <h3>This is for cart</h3>
+                <Cart></Cart>
             </div>
         </div>
     );
