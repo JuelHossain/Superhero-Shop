@@ -8,7 +8,7 @@ import "./Main.css";
 const Main = () => {
   const [heroes, setHeroes] = useState([]);
   const [cartItem, setCartItem] = useState([]);
-  const [choosed, setchoosed] = useState(0);
+  const [choosed, setchoosed] = useState([]);
   const [error, setError] = useState("");
   const [idName, setId] = useState('display-none');
 
@@ -34,12 +34,14 @@ const Main = () => {
     const exists = cartItem.find((x) => x.id === hero.id);
     if (exists.qty===1) {
       setCartItem(cartItem.filter(x => x.id !== hero.id));
+      setId("display-none");
     } else {
       setCartItem(
         cartItem.map((x) =>
           x.id === hero.id ? { ...exists, qty: exists.qty - 1 } : x
         )
       );
+      
     }
   }
   const randomChoose = (randomIndex) => {
